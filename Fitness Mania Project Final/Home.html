@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("BG1.jpg");
+  
+  min-height: 500px;
+  
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:5px;
+  
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+div.gallery {
+  border: 2px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  
+}
+
+(max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+(max-width: 500px) {
+  .responsive {
+    width: 100%;
+	
+	
+  }
+}
+
+.clearfix:after {
+ 
+  display: table;
+  clear: both;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+div {
+  background-image:url('BG2.jpg');
+  width:1100;
+  height:1000;
+  background-image:no-repeat;
+  
+}
+.header{
+border:dash;
+}
+.flip-box{
+background-image:url('BG3.jpg');
+  opacity:0.8;
+  }
+.flip-box {
+  
+  width: 1000px;
+  height: 220px;
+  border: 3px solid white;
+  perspective: 1000px;
+  margin-top:10px;
+   margin-left:30px;
+   margin-right:30px;
+   opacity:0.6px;
+}
+
+.flip-box-inner {
+  position: absolute;
+  width: 100%;
+  height: 250;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  position:relative;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 300;
+  height: 250;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color:white;
+  color: black;
+}
+
+.flip-box-back {
+  background-color:black;
+  color: cyan;
+  font-weight:bold;
+  font-size:14pt;
+  transform: rotateY(180deg);
+}
+
+
+</style>
+</head>
+<body>
+<img src="logo.jpg" alt="Logo" style="width:70px;height:80px;"><div style="text-align: right; color:white; font-size:15pt;font-family:helvetica; " ><marquee> Fitness Mania </marquee></div>
+ 
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+      <a href="Home.html">Home</a>
+      <a href="form.html">Account</a>
+      <a href="https://www.bmi-calculator.net/">Fitness calculator</a>
+      
+	  <a href="Aboutnew.html">About Us</a>
+
+	  <a href="login new.html">Login</a>
+	  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Gallary yoga.html">Yoga</a>
+      <a href="gallary.html">Power Yoga</a>
+      <a href="video.html">Videos</a>
+	  <a href="Machine.html">Machines</a>
+	  <a href="Cardio.html">Cardio</a>
+	  <a href="Zumba.html">Zumba</a>
+    </div>
+  </div>
+	  <input type="text" placeholder="Search..">
+    </div>
+  </div>
+   <pre><br><br><br><br><br><br><br><br>
+<h1 < style="color:crimson; font-family:italics; text-align:center;font-size:30pt;"> A fit, healthy body that is the best fashion statement... </h1></br>
+
+
+</pre>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+  <div
+    <div class="flip-box-front">
+      <img src="1.jpg" alt="fitness" style="width:300px;height:200px" >
+    </div>
+	<div class="flip-box-back">
+      
+      <h2>Exercise should be regarded as a tribute to the heart.</h2>
+	 </div>
+	 </div>
+</div>
+<h4 style= "text-align:center; font-size:16pt; color:red;">"Success usually comes to those who are too busy to be looking for it ."</h4></style>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="2.jpg">
+      <img src="2.jpg" alt="Dumbbell Yoga" width="32" height="54" style="border:5px solid red">
+    </a>
+    <div class="desc" style="color:red ;font-family:verdana; font-weight:bold" >"Dumbbell Yoga"</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="3.jpg">
+      <img src="3.jpg" alt="Northern Lights" width="600" height="400"style="border:5px solid springgreen">
+    </a>
+    <div class="desc" style="color:springgreen; font-family:verdana; font-weight:bold" >"Solid rubber dumbbells with Black finish." </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="4.jpg">
+      <img src="4.jpg" alt="Forest" width="600" height="900" style="border:5px solid gold">
+    </a>
+    <div class="desc" style="color:gold ;font-family:verdana; font-weight:bold" >"Running is a great way to help improve cardiovascular health."</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="5.jpg">
+      <img src="5.jpg" alt= "Mountains" width="600" height="400"style="border:5px solid lime">
+    </a>
+    <div class="desc"  style="color:lime;  font-family:verdana; font-weight:bold" >"Skipping rope is a combination of many exercises."</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="66.jpg">
+      <img src="66.jpg"  alt="Northern Lights" width="600" height="400"style="border:5px solid yellowgreen">
+    </a>
+    <div class="desc" style="color:yellowgreen; font-family:verdana; font-weight:bold" >"The last three or four reps is what makes the muscle grow."</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="7.jpg">
+      <img src="7.jpg"alt="Northern Lights" width="600" height="600"style="border:5px solid pink">
+    </a>
+    <div class="desc" style="color:pink; font-family:verdana; font-weight:bold" >"Zumba is an aerobic exercise that's vigorous by nature." </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="8.jpg">
+      <img src="8.jpg" alt="Northern Lights" width="600" height="400"style="border:5px solid orange">
+    </a>
+    <div class="desc" style="color:orange; font-family:verdana; font-weight:bold" >"If you are tired learn to rest." </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="9.jpg">
+      <img src="9.jpg" alt="Northern Lights" width="600" height="400"style="border:5px solid turquoise">
+    </a>
+    <div class="desc" style="color:turquoise; font-family:verdana; font-weight:bold" >"Fitness is like a relationship. You cannot cheat and expect it to work." </div>
+  </div>
+</div>
+
+</body>
+<hr>
+</html>
